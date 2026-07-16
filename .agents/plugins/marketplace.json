@@ -8,10 +8,8 @@
       "name": "build-web-apps",
       "description": "Build web apps with frontend asset design, browser testing, UI components, payments, and database guidance.",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/openai/plugins.git",
-        "path": "./plugins/build-web-apps",
-        "ref": "main"
+        "source": "local",
+        "path": "./plugins/build-web-apps"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -24,10 +22,8 @@
       "name": "github",
       "description": "Inspect repositories, triage pull requests and issues, debug CI, and publish changes through a hybrid GitHub connector and CLI workflow.",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/openai/plugins.git",
-        "path": "./plugins/github",
-        "ref": "main"
+        "source": "local",
+        "path": "./plugins/github"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -39,10 +35,8 @@
       "name": "amplitude",
       "description": "Product analytics and funnels",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/openai/plugins.git",
-        "path": "./plugins/amplitude",
-        "ref": "main"
+        "source": "local",
+        "path": "./plugins/amplitude"
       },
       "policy": {
         "installation": "AVAILABLE",
